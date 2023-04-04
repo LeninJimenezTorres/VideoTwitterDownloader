@@ -4,7 +4,7 @@ import {Home,Developer,Donations} from "../pages/index"
 
 function Router() {
   return (
-    <Routes>
+    <Routes basename={process.env.PUBLIC_URL}>
         <Route exact element={<Home/>} path="/"/>
         <Route exact element={<Donations/>} path="/donations"/>
         <Route exact element={<Developer/>} path="/developer"/>
