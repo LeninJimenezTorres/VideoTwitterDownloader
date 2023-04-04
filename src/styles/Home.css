@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    z-index: 0;
+}
+.home-sub-container{
+    width: 85%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    z-index: 2;
+}
+
+.background{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    background-image: url('../galery/twitter.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+.search{
+    width: 100%;
+    height: 20%;
+    background-color: rgba(43, 161, 100, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.results{
+    width: 100%;
+    height: 65%;
+    background-color: rgba(127, 136, 255,0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container{
+    height: 100%;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-container img{
+    width: auto;
+    max-width: 30%;
+    height: 80%;
+    visibility: visible;
+}
+.logo-container h1{
+    width: auto;
+    height: 100%;
+}
+.navbar{
+    height: 100%;
+    width: 60%;
+    background-color: rgba(43, 43, 43, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 127, 80, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+@keyframes anim1 {
+    0%   {background-color: rgba(187, 15, 133,0);}
+    50%  {background-color:rgb(0, 153, 255);}
+    100% {background-color: rgb(187, 15, 133);}
+}
+.navbar li{
+    height: 50%;
+    width: 14%;
+    background-color: rgba(98, 255, 80, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    margin-left: 10%;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+} 
+.navbar li:hover{
+    animation-name: anim1;
+    animation-duration: 1200ms;
+    animation-delay: 400ms;
+    animation-fill-mode: forwards; 
+    border-radius: 10px;
+}  
+.title{
+    font-size: 1.5em;
+    color: white;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.search div:nth-child(1), .search div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.input {
+    width: 70%;
+    height: 25%;
+    background-color: rgba(255, 255, 255, 0);
+}
+input{
+    background-color: white;
+}
+button{
+    background-color: rgb(0, 153, 255);
+    border-radius: 500px;
+    color: white;
+    font-size: 1.1rem;
+    border-width: 4px;
+    border-color: rgba(240, 248, 255, 0.9997);
+}
+.submit-button{
+    margin-left: 10px;
+    width: 7%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+}
+.submit-button button {
+    transition-duration: 500ms;
+}
+.submit-button button:hover {
+    background-color: rgb(187, 15, 133);
+}
+
+
+.label-add{
+    width: 100%;
+    height: 20vh;
+}
+.label-add:nth-child(1), .label-add:nth-child(2), .label-add:nth-child(3){
+    width: 100%;
+    height: 20vh;
+}
+
+.lateralAd_Container{
+    position: absolute;
+    width: 9%;
+    height: 50%;
+    background-color: rgba(67, 115, 115, 0);
+    right: 0;
+    top: 25%;
+}
+.tweet-container{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    background-color: rgba(110, 110, 110, 0);
+}
+.bannerAd-container{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    background-color: rgba(132, 63, 63, 0);
+}

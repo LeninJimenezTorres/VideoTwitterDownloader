@@ -1,0 +1,18 @@
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid #fff;
+  pointer-events: none;
+  mix-blend-mode: difference;
+  z-index: 9999;
+  transition: all 0.1s ease-out;
+}
+
+.custom-cursor:hover {
+  background-color: #fff;
+}
