@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/VideoTwitterDownloader/static/css/main.e0c57bb6.css",
-    "main.js": "/VideoTwitterDownloader/static/js/main.be2dfbf8.js",
+    "main.js": "/VideoTwitterDownloader/static/js/main.d22e5303.js",
     "static/js/787.ca496e2e.chunk.js": "/VideoTwitterDownloader/static/js/787.ca496e2e.chunk.js",
     "static/media/twitter.jpg": "/VideoTwitterDownloader/static/media/twitter.d67dc031cded67a0a02d.jpg",
     "static/media/smile5.jpg": "/VideoTwitterDownloader/static/media/smile5.d1d422c0192b2691a2ad.jpg",
@@ -9,11 +9,11 @@
     "static/media/logo.svg": "/VideoTwitterDownloader/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/VideoTwitterDownloader/index.html",
     "main.e0c57bb6.css.map": "/VideoTwitterDownloader/static/css/main.e0c57bb6.css.map",
-    "main.be2dfbf8.js.map": "/VideoTwitterDownloader/static/js/main.be2dfbf8.js.map",
+    "main.d22e5303.js.map": "/VideoTwitterDownloader/static/js/main.d22e5303.js.map",
     "787.ca496e2e.chunk.js.map": "/VideoTwitterDownloader/static/js/787.ca496e2e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0c57bb6.css",
-    "static/js/main.be2dfbf8.js"
+    "static/js/main.d22e5303.js"
   ]
 }
