@@ -60,6 +60,7 @@ function Home() {
   };
 
 
+  const urlGitRepository = "/VideoTwitterDownloader"
 
   return (
     <div className="home" >
@@ -74,7 +75,7 @@ function Home() {
           <div className="navbar">
             <ul>
               <li>
-                <a href="/">Home</a>
+                <a href={urlGitRepository+"/"}>Home</a>
               </li>
               <li>
                 <a href={urlAuthor} target="_blank" rel="noreferrer">
@@ -82,7 +83,7 @@ function Home() {
                 </a>
               </li>
               <li>
-                <a href="/donations">Donations</a>
+                <a href={urlGitRepository+"/donations"}>Donations</a>
               </li>
             </ul>
           </div>  
