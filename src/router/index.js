@@ -6,9 +6,9 @@ function Router() {
   const urlGitRepository = "/VideoTwitterDownloader"
   return (
     <Routes basename={process.env.PUBLIC_URL}>
-        <Route exact element={<Home/>} path={"/"}/>
-        <Route exact element={<Donations/>} path={"/donations"}/>
-        <Route exact element={<Developer/>} path={"/developer"}/>
+        <Route exact element={<Home/>} path={"/VideoTwitterDownloader/"}/>
+        <Route exact element={<Donations/>} path={"/VideoTwitterDownloader/donations"}/>
+        <Route exact element={<Developer/>} path={"/VideoTwitterDownloader/developer"}/>
     </Routes>
 
   )
