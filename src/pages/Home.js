@@ -75,7 +75,7 @@ function Home() {
           <div className="navbar">
             <ul>
               <li>
-                <a href={"/VideoTwitterDownloader/"}>Home</a>
+                <a href={"https://leninjimeneztorres.github.io/VideoTwitterDownloader/VideoTwitterDownloader/"}>Home</a>
               </li>
               <li>
                 <a href={urlAuthor} target="_blank" rel="noreferrer">
@@ -83,7 +83,7 @@ function Home() {
                 </a>
               </li>
               <li>
-                <a href={"/VideoTwitterDownloader/donations"}>Donations</a>
+                <a href={"https://leninjimeneztorres.github.io/VideoTwitterDownloader/donations"}>Donations</a>
               </li>
             </ul>
           </div>  
